@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+*.log
+tmp-*
+
+**/output/*
+!**/output/.gitkeep
+**/input/chart.txt
+!**/input/.gitkeep

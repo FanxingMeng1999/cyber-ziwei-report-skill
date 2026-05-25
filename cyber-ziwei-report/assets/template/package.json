@@ -1,0 +1,31 @@
+{
+  "name": "cyber-ziwei-report-generator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "文墨天机紫微斗数报告生成器：文本解析、结构化分析与聚合 HTML 报告。",
+  "scripts": {
+    "parse": "tsx scripts/parse.ts",
+    "analyze": "tsx scripts/analyze.ts",
+    "analyze:llm": "tsx scripts/analyze-llm.ts",
+    "render": "tsx scripts/render.tsx",
+    "typecheck": "tsc --noEmit",
+    "check": "tsx scripts/check.ts",
+    "audit": "tsx scripts/audit-analysis.ts",
+    "audit:analysis": "tsx scripts/audit-analysis.ts",
+    "audit:report": "tsx scripts/audit-report.ts",
+    "review:all": "tsx scripts/review-all.ts",
+    "build:all": "tsx scripts/build-all.ts"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
