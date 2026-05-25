@@ -134,7 +134,7 @@ cyber-ziwei-report-skill/
 在 PowerShell 中执行：
 
 ```powershell
-git clone https://github.com/hhhhuuuuyyyzzzppp/cyber-ziwei-report-skill.git
+git clone https://github.com/FanxingMeng1999/cyber-ziwei-report-skill.git
 cd cyber-ziwei-report-skill
 Copy-Item -Recurse -Force .\cyber-ziwei-report "$env:USERPROFILE\.codex\skills\cyber-ziwei-report"
 ```
@@ -156,7 +156,7 @@ Copy-Item -Recurse -Force .\cyber-ziwei-report "$env:USERPROFILE\.codex\skills\c
 你也可以不安装 skill，直接复制模板项目运行。
 
 ```powershell
-git clone https://github.com/hhhhuuuuyyyzzzppp/cyber-ziwei-report-skill.git
+git clone https://github.com/FanxingMeng1999/cyber-ziwei-report-skill.git
 cd cyber-ziwei-report-skill
 Copy-Item -Recurse .\cyber-ziwei-report\assets\template .\my-ziwei-report
 cd .\my-ziwei-report
@@ -373,4 +373,3 @@ HTML 可以保留多主题、多版本、目录跳转和更好的屏幕阅读效
 ## 许可证
 
 MIT License
-
